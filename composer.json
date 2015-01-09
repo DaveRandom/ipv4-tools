@@ -1,0 +1,15 @@
+{
+  "name": "daverandom/ipv4-tools",
+  "description": "Tools for working with IPv4 addresses",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Chris Wright",
+      "email": "github@daverandom.com"
+    }
+  ],
+  "autoload": {
+    "files": ["src/functions.php"],
+    "psr-4": {"IPv4\\": "src/"}
+  }
+}
